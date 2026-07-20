@@ -32,9 +32,6 @@ a {
     align-items: center;
     background-color: #1F2937;
     padding: 90px 200px;
-     
-
-
 }
 .hero-section .left h1 {
     font-size: 48px;
@@ -48,6 +45,7 @@ a {
 .hero-section .right img {
     width: 700px;
     height: 300px;
+    margin-left: 20px;
 }
 
 .hero-section .left button {
@@ -59,3 +57,39 @@ a {
     border-radius: 7px;
      
 }
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+     gap: 100px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid;
+    border-radius: 8px;
+    
+}
+.cards .text {
+     width: 200px;
+     text-align: center;
+     color:#1F2937;
+} 
