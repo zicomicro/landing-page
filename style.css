@@ -26,3 +26,36 @@ a {
     color: #E5E7EB;
     font-size: 18px;
 } 
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 90px 200px;
+     
+
+
+}
+.hero-section .left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-section .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-section .right img {
+    width: 700px;
+    height: 300px;
+}
+
+.hero-section .left button {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    font-weight: 900;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 7px;
+     
+}
