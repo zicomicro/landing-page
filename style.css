@@ -143,3 +143,11 @@ a {
     border: 2px solid white;
     border-radius: 7px;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 16px;
+}
